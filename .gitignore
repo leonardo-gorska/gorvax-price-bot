@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Database
+data/
+
+# Environment
+.env
+
+# Logs
+*.log
+data/bot.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Gemini/AI
+.gemini/
+.gorvax-logs.txt
+
+# Docker
+.dockerignore
+
+# Test coverage
+coverage/
