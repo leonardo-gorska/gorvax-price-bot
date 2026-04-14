@@ -31,7 +31,7 @@ const envSchema = z.object({
 
   DASHBOARD_PORT: z.coerce.number().default(3001),
   DASHBOARD_USER: z.string().default('admin'),
-  DASHBOARD_PASSWORD: z.string().min(6, 'DASHBOARD_PASSWORD deve ter pelo menos 6 caracteres').default('gorvax123'),
+  DASHBOARD_PASSWORD: z.string().min(6, 'DASHBOARD_PASSWORD deve ter pelo menos 6 caracteres'),
   ADMIN_ID: z.string().optional().default(''),
 });
 

@@ -22,9 +22,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Gemini/AI
+# Local config
 .gemini/
-.gorvax-logs.txt
 
 # Docker
 .dockerignore
