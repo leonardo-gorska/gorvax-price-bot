@@ -23,7 +23,7 @@ Thumbs.db
 .idea/
 
 # Local config
-.gemini/
+.local/
 
 # Docker
 .dockerignore
