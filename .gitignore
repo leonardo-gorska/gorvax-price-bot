@@ -34,3 +34,8 @@ coverage/
 # Local workflows
 .agent/
 .agents/
+
+# Temp files
+tmp/
+file_list_temp.txt
+*_bot.bat
